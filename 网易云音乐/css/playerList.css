@@ -1,0 +1,233 @@
+
+/* 歌曲列表 */
+.songSheet {
+	display: none;
+	margin-top: 17px;
+	background-color: #fafafa;
+}
+
+.sheetInfo {
+	position: relative;
+	height: 200px;
+	margin-left: 240px;
+}
+
+.titleImg img {
+	width: 200px;
+	height: 200px;
+}
+
+.songText {
+	position: absolute;
+	top: 0px;
+	left: 230px;
+}
+
+.songSpan div {
+	width: 43px;
+	height: 23px;
+	border-radius: 2px;
+	line-height: 23px;
+	text-align: center;
+	background-color: #c52f30;
+	display: inline-block;
+}
+
+.songSpan div span {
+	color: #fff;
+	font-size: 12px;
+}
+
+.songSpan span {
+	font-family: "微软雅黑";
+	font-size: 22px;
+}
+
+.userInfo {
+	position: relative;
+	width: 210px;
+	height: 30px;
+	padding-top: 15px;
+}
+
+.userInfo img {
+	cursor: pointer;
+}
+
+.userInfo .userName {
+	position: absolute;
+	font-family: "宋体";
+	font-size: 18px;
+	top: 20px;
+	left: 40px;
+	opacity: 0.8;
+	filter: alpha(opacity=80);
+	cursor: pointer;
+}
+
+.userInfo .userName:hover {
+	opacity: 1;
+	filter:alpha(opacity=100);
+}
+
+.userInfo .userBuild {
+	position: absolute;
+	font-family: "宋体";
+	font-size: 14px;
+	color: #999;
+	top: 20px;
+	right: 0px;
+}
+
+.btnInfo {
+	margin-top: 20px;
+}
+
+.btnInfo li {
+	float: left;
+	width: 80px;
+	height: 25px;
+	line-height: 25px;
+	text-align: center;
+	border: 1px solid #d2d1d1;
+	border-radius: 4px;
+	list-style: none;
+	margin-right: 20px;
+	cursor: pointer;
+}
+
+.songInfo {
+	padding-top: 50px;
+}
+
+.songInfo .labelProfile {
+	font-size: 12px;
+	margin-bottom: 10px;
+}
+
+.songInfo .labelProfile span a {
+	color: #0c73c2;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.sheetMiddle {
+	margin-top: 25px;
+}
+
+.sheetMiddle li{
+	float: left;
+	width: 80px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	border: 1px solid #dedede;
+	list-style: none;
+	font-size: 12px;
+	margin-right: 20px;
+	cursor: pointer;
+}
+
+.sheetMiddle li:first-child {
+	background-color: #c62f2f;
+	color: #fff;
+}
+
+.songList table {
+	width: 83.667%;
+	border-spacing: 0;
+	border-collapse: collapse;
+	font-size: 12px;
+}
+
+.songList table thead tr {
+	height: 30px;
+}
+
+.songList table tbody tr {
+	height: 25px;
+	-moz-user-select:none; /* 禁止选中文本  支持火狐 */
+}
+
+.music-list {
+	color: #666666;
+}
+
+.songList table tbody tr td:nth-child(3) {
+	color: #333333;
+}
+
+.songList table thead tr th {
+	color: #666666;
+	font-weight: normal;
+	border-top: 1px solid #c62f2f;
+	border-bottom: 1px solid #dedede;
+	border-left: 1px solid #dedede;
+
+}
+
+.songList table thead tr th,.songList table tbody tr td {
+	text-align: left;
+	padding-left: 8px;
+}
+
+.songList table thead tr th:first-child {
+	width: 5%;
+	padding-right: 0px;
+}
+
+.songList table thead tr th:nth-child(2) {
+	width: 5%;
+}
+
+.songList table thead tr th:nth-child(5) {
+	width: 25%;
+}
+
+.songList table thead tr th:last-child {
+	width: 13%;
+}
+
+.songList table thead tr th:first-child {
+	padding-left: 20px;
+}
+
+.songList table tbody tr td:first-child {
+	padding-left: 35px;
+}
+
+/* 歌曲列表隔行变色 */
+/* 奇数行背景色 */
+.tr_odd 
+{ 
+	background-color: #f5f5f7;
+} 
+
+/* 偶数行背景色 */
+.tr_even 
+{ 
+	background-color: #fafafa;
+}
+
+/* 滑动歌单列表的背景色 */
+.move_bgcolor {
+	background-color: #ebeced; 
+}
+
+/* 歌单列表单击后的背景色*/
+.tr_bgcolor{
+	color:#111111;
+	background-color: #e3e3e5;
+}
+
+/* 歌单列表播放显示音量图标 */
+.start_vol {
+	background-image: url('../img/volimg.png');
+	background-repeat: no-repeat;
+}
+
+.stop_vol {
+	background-image: url('../img/volimg.png');
+	background-repeat: no-repeat;
+	background-position: 0px -33px;
+}

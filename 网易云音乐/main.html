@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>网易云音乐-网页版</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/playerList.css">
+</head>
+<body>
+	<div class="main">
+		<header id="header">
+			<div class="main_img">
+				<img src="img/main.png" class="logo" />
+				<img src="img/logo.png" class="logo_text btn" data-action="homePage" />
+			</div>
+			<div class="header_input">
+				<input type="text" name="serach" value="搜索音乐，歌手，歌词，用户">
+				<a sre=""><img src="img/fangdajing.png" alt=""></a>
+			</div>
+			<nav>
+				<ul>
+					<li><a><img src="" alt="">优优YOU子鸣</a></li>
+					<li><img src="img/skin.png" /></li>
+					<li><img src="img/news1.png" /></li>
+					<li><img src="" alt=""></li>
+					<li></li>
+					<li><img src="" alt="">1</li>
+					<li><img src="" alt="">2</li>
+					<li><img src="" alt="">3</li>
+					<li><img src="" alt="">4</li>
+				</ul>
+			</nav>
+		</header>
+
+		<div class="content">
+			<article class="wyLeft">
+				<div class="commend">
+					<div class="wyLeft_title"><span>推荐</span></div>			
+					<nav class="nav_li">
+ 						<ul>
+							<li class="selectBg btn" data-action="homePage"><a>发现音乐</a></li>
+							<li><a>私人FM</a></li>
+							<li><a>MV</a></li>
+							<li><a>朋友</a></li>
+						</ul>
+					</nav>
+				</div>
+				<div class="myMusic">
+					<div class="wyLeft_title"><span>我的音乐</span></div>
+					<nav class="nav_li">
+						<ul>
+							<li class="btn" data-action="sheet"><a>本地音乐</a></li>
+							<li><a>下载管理</a></li>
+							<li><a>我的音乐云盘</a></li>
+							<li><a>我的歌手</a></li>
+							<li><a>我的MV</a></li>
+						</ul>
+					</nav>
+				</div>
+				<div class="buildPlayList expand">
+					<div class="wyLeft_title upDownBuild" title="收起"><span>创建的歌单</span><span class="arrow down"></span></div>
+					<nav class="nav_li">
+						<ul>
+							<li class="btn" data-action="sheet"><a title="此处有链接">我喜欢的音乐</a></li>
+							<li class="btn" data-action="sheet"><a>好听的纯音乐</a></li>
+							<li class="btn" data-action="sheet"><a>好听的民谣</a></li>
+						</ul>
+					</nav>  
+				</div>
+				<div class="collectPlayList expand">
+					<div class="wyLeft_title upDownCollect" title="收起"><span>收藏的歌单</span><span class="arrow down"></span></div>
+					<nav class="nav_li">
+						<ul>
+							<li><a>云音乐新歌榜</a></li>
+							<li><a>重温《请回答1988》</a></li>
+							<li><a>吉他伴随民谣</a></li>
+						</ul>
+					</nav>
+				</div>
+			</article>
+			
+			<div class="wyRight">
+				<div class="wyRight_top">
+					<nav>
+						<ul>
+							<li class="line"><a>个性推荐</a></li>
+							<li><a>歌单</a></li>
+							<li><a>主播电台</a></li>
+							<li><a>排行榜</a></li>
+							<li><a>歌手</a></li>
+							<li><a>最新音乐</a></li>
+						</ul>
+					</nav>
+				</div>
+				<hr class="topLine" />
+				<div class="imgMove">
+				<!-- <div id="list_up" class="list_up">收起</div> -->
+					<div class="article_img">
+					    <div class="list">
+							<ul>
+								<li class="p6"><a href="#"><img src="img/wy5.jpg" alt="" /></a></li>
+								<li class="p5"><a href="#"><img src="img/wy4.jpg" alt="" /></a></li>
+								<li class="p4"><a href="#"><img src="img/wy2.jpg" alt="" /></a></li>
+								<li class="p3"><a href="#"><img src="img/wy1.jpg" alt="" /></a></li>
+								<li class="p2"><a href="#"><img src="img/wy6.jpg" alt="" /></a></li>
+								<li class="p1"><a href="#"><img src="img/wy3.jpg" alt="" /></a></li>
+							</ul>
+						</div>
+						
+						<a href="javascript:;"><img src="img/1.png" alt="" class="prev btn" /></a>
+						<a href="javascript:;"><img src="img/2.png" alt="" class="next btn" /></a>
+
+						<div class="buttons">
+							<a href="javascript:;"><span class="spanColor spanMoveColor"></span></a>
+							<a href="javascript:;"><span class="spanColor"></span></a>
+							<a href="javascript:;"><span class="spanColor"></span></a>
+							<a href="javascript:;"><span class="spanColor"></span></a>
+							<a href="javascript:;"><span class="spanColor"></span></a>
+							<a href="javascript:;"><span class="spanColor"></span></a>
+						</div>
+					</div>
+				</div>
+	
+				<div class="commendList">
+					<span class="commendList-span">推荐歌单</span>
+					<hr class="commendLine" />
+					<div class="demoList weekList btn" data-action="sheet">
+						<!-- <img src="img/week.png" alt=""> -->
+						<p class="week"></p>
+						<p class="song">10</p>
+					</div>
+					<div class="demoList">
+						<img src="img/yang.png" alt="">
+					</div>
+					<div class="demoList">
+						<img src="img/mingyao.png" alt="">
+					</div>
+					<div class="demoList">
+						<img src="img/back.png" alt="">
+					</div>
+					<div class="demoList">
+						<img src="img/jielun.png" alt="">
+					</div>
+				</div>
+			</div>
+
+			<div class="songSheet">
+				<div class="sheetInfo">
+					<div class="titleImg">
+						<img src="img/songImg.png" alt="">
+					</div>
+					<div class="songText">
+						<div class="songSpan">
+							<div><span>歌单</span></div>
+							<span>我喜欢的音乐</<span>
+						</div>
+						<div class="userInfo">
+							<img src="img/userPic.png" alt="">
+							<span class="userName">用户名</span>
+							<span class="userBuild">2016-03-15创建</span>
+						</div>
+						<ul class="btnInfo">
+							<li>播放全部</li>
+							<li>收藏(0)</li>
+							<li>分享(0)</li>
+							<li>下载全部</li>
+						</ul>
+						<div class="songInfo">
+							<div class="labelProfile">
+								<span>标签：</span>
+								<span><a>添加标签</a></span>
+							</div>
+							<div class="labelProfile">
+								<span>简介：</span>
+								<span><a>添加简介</a></span>
+							</div>
+						</div>
+					</div>
+
+					<div class="sheetMiddle">
+						<li>歌曲列表</li>
+						<li>评论(0)</li>
+						<li>收藏者</li>
+					</div>
+				</div>
+				
+				<div class="songList">
+					<table>
+						<thead>
+							<tr>
+								<th><img src="img/sortid.png" alt=""></th>
+								<th>操作</th>
+								<th>音乐标题</th>
+								<th>歌手</th>
+								<th>专辑</th>
+								<th>时长</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr class="music-list">
+								<td class="list-id">01</td>
+								<td><img src="img/caozuo.png" alt=""></td>
+								<td>理想三旬</td>
+								<td>陈鸿宇</td>
+								<td>浓烟下的诗歌电台</td>
+								<td>03:30</td>
+							</tr>
+							<tr class="music-list">
+								<td class="list-id">02</td>
+								<td><img src="img/caozuo.png" alt=""></td>
+								<td>晴天</td>
+								<td>周杰伦</td>
+								<td>叶惠美</td>
+								<td>04:29</td>
+							</tr>
+							<tr class="music-list">
+								<td class="list-id">03</td>
+								<td><img src="img/caozuo.png" alt=""></td>
+								<td>追光者</td>
+								<td>岑宁儿</td>
+								<td>夏至未至 影视原声带</td>
+								<td>03:55</td>
+							</tr>
+							<tr class="music-list">
+								<td class="list-id">04</td>
+								<td><img src="img/caozuo.png" alt=""></td>
+								<td>一个人的时光</td>
+								<td>石进</td>
+								<td>夜的钢琴曲-石进原创钢琴曲14首</td>
+								<td>02:52</td>
+							</tr>
+							<tr class="music-list">
+								<td class="list-id">05</td>
+								<td><img src="img/caozuo.png" alt=""></td>
+								<td>再也没有</td>
+								<td>Ryan.B / AY楊佬叁</td>
+								<td>再也没有</td>
+								<td>03:32</td>
+							</tr>
+							<tr class="music-list">
+								<td class="list-id">06</td>
+								<td><img src="img/caozuo.png" alt=""></td>
+								<td>告白气球</td>
+								<td>周杰伦</td>
+								<td>周杰伦的床边故事</td>
+								<td>03:35</td>
+							</tr>
+							<tr class="music-list">
+								<td class="list-id">07</td>
+								<td><img src="img/caozuo.png" alt=""></td>
+								<td>平凡之路</td>
+								<td>朴树</td>
+								<td>猎户星座</td>
+								<td>05:01</td>
+							</tr>
+						</tbody>
+					</table>
+						
+					
+				</div>
+
+			</div>
+					
+		</div>
+
+		<div class="cover btn" data-action="sheet">
+			<div class="coverInformation">
+				<img class="music-cover" src="img/lixiang.png">
+				<img class="music-fugai" src="img/fugai.png">
+				<div class="cover-name">
+					<div class="music-name">理想三旬</div>
+					<div class="artists-name">陈鸿宇</div>
+				</div>
+				<div class="coverImg">
+					<div title="取消喜欢" class="collection"></div>
+					<div title="分享" class="share"></div>
+				</div>
+			</div>
+		</div>
+
+		<footer id="footer">
+			<div class="ft-container">
+		        <div class="con-btn">
+		            <div class="yuan-1"></div><a class="btn-prev" title="上一首"></a>
+		            <div class="yuan-2"></div><a class="btn-play" title="暂停/继续"></a>
+		            <div class="yuan-3"></div><a class="btn-next" title="下一首"></a>
+		        </div>
+		        
+		        <audio id="audio1" src="music/理想三旬.mp3"></audio>
+
+		        <div class="vol">
+		            <div class="quiet">
+		                <a href="javascript:;" class="player-btn btn-quiet" title="静音"></a>
+		            </div>
+		            <div class="volume">
+		                <div class="volume-box">  
+		                    <div id="volume-progress" class="mkpgb-area"></div>
+		                </div>
+		            </div>
+		        </div>
+
+		        <div class="progress">
+			        <div class="audio-this-time">00:00</div>
+					<div class="audio-count-time">00:00</div>
+		            <div class="progress-box">  
+		                <div id="music-progress" class="mkpgb-area"></div>
+		            </div>
+		        </div>
+	    	</div>
+		</footer>
+	</div>
+
+	<script src="js/jquery-3.1.1.min.js"></script>
+	<script src="js/functions.js"></script>
+	<script src="js/imgMove.js"></script>
+	<script src="js/player.js"></script>
+</body>
+</html>
